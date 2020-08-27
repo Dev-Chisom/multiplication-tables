@@ -48,3 +48,23 @@ button{
 button:hover{
     opacity: 1;
 }
+
+
+
+@media screen and (max-width: 768px){
+    body{
+        font-size: 1.5rem !important;
+    }
+    label{
+        margin: 1rem;
+    }
+    input{
+        width: 50%;
+        padding: 0.6rem;
+        height :3rem ;
+        margin: .7rem;
+        font-size: 1rem;
+        font-weight: 400;
+        opacity: 0.8;
+    }
+}
