@@ -1,12 +1,12 @@
 // // //select element from the DOM
 
  const multiplier = document.getElementById('value1').value;
- const range = document.getElementById('value2').value;
+ let range = document.getElementById('value2').value;
  const table = document.getElementById('tables')
 
 
 function timesTable() {
-    const range = document.getElementById('value2').value;
+    let range = document.getElementById('value2').value;
     const multiplier = document.getElementById('value1').value;
 
     let displayTable = '';
