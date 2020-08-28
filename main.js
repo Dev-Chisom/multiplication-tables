@@ -17,11 +17,3 @@ function timesTable() {
     }
     const table = document.getElementById('tables').innerHTML = displayTable;
  }
-
-// // let fruit = ['Banana', 'orange', 'apple', 'mango']
-// // // fruit.splice(2,2, 'grapes', 'lemon' )
-// // console.log(fruit.length);
-
-
-// let number = 1;
-// console.log(number++);
